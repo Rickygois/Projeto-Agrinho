@@ -1,33 +1,127 @@
 body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+	background-color: lightgray;
 }
 
-button {
-    background-color: #64A712;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+h1 {
+	text-align: center;
 }
 
-.passo {
-    display: none;
+a {
+	color: #000000;
 }
 
-.passo.ativo {
-    display:block;
+a:hover {
+	color: #000000;
 }
 
-main {
-    text-align: center;
-    max-width: 90%;
+#corpo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 500px;
+	background-color: lightblue;
+	border: medium dashed black;
 }
 
-img {
-    max-width: 90%;
+#corpo2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 1050px;
+	background-color: lightblue;
+	border: medium dashed black;
+}
+
+#tela {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	width: 500px;
+	height: 100px;
+	background-color: white;
+	border: medium solid black;
+}
+
+#botoes {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85px;
+	width: 460px;
+}
+
+#creditos_txt {
+	margin-left: 80px;
+	margin-top: 30px;
+	font-weight: bold;
+	float: left;
+}
+
+#creditos {
+	clear: left;
+	margin-left: 75px;
+	float: left;
+}
+
+#valor_txt {
+	margin-left: 530px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+#valor {
+	margin-left: 560px;
+}
+
+#slot1 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#slot2 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#slot3 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#slot4 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#rodap� {
+	margin-left: 113px
+}
+
+#tabela {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
 }
